@@ -108,7 +108,8 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 
 ## 🧑‍💻 Autor
 
-Desenvolvido por Luís Mutton – Projeto acadêmico.
+Desenvolvido por Luís Mutton, Daniel Francesconi, Eduardo Bressan, William Dias, Aliffer Leonn – Projeto acadêmico.
+
 
 ---
 
