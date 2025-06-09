@@ -67,7 +67,10 @@ class QuizServer:
         except ConnectionResetError:
             print(f"Cliente {addr} desconectado abruptamente")
         finally:
-            client_socket.close()
+            try:
+                client_socket.close()
+            except:
+                pass
             self.shared_data.remove_player(player_id)
             print(f"Conexão com {addr} encerrada")
 
