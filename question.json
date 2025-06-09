@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Qual é o sistema operacional desenvolvido pela Microsoft?",
+        "options": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "Android"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "O que significa a sigla 'CPU'?",
+        "options": [
+            "Central Processing Unit",
+            "Computer Processing Unit",
+            "Central Power Unit",
+            "Computer Power Unit"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qual destes não é um sistema operacional?",
+        "options": [
+            "Ubuntu",
+            "Fedora",
+            "Apache",
+            "Debian"
+        ],
+        "answer": 3
+    }
+]
