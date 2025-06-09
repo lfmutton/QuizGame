@@ -1,6 +1,7 @@
 import socket
 import json
 import multiprocessing
+import random
 from question_manager import QuestionManager
 from shared_data import SharedData
 
@@ -41,7 +42,10 @@ class QuizServer:
             player_id = self.shared_data.add_player()
             client_socket.sendall(f"Bem-vindo ao PyQuiz! Seu ID: {player_id}\n".encode())
             
-            for question in self.question_manager.get_questions():
+            questions = self.question_manager.get_questions().copy()
+            random.shuffle(questions)
+
+            for question in questions:
                 # Envia a pergunta
                 client_socket.sendall(f"Pergunta: {question['question']}\nOpções:\n".encode())
                 for idx, option in enumerate(question['options']):
@@ -62,7 +66,7 @@ class QuizServer:
             
             # Mostra pontuação final
             score = self.shared_data.get_score(player_id)
-            client_socket.sendall(f"Fim do jogo! Sua pontuação: {score}/{len(self.question_manager.get_questions())}\n".encode())
+            client_socket.sendall(f"Fim do jogo! Sua pontuação: {score}/{len(questions)}\n".encode())
             
         except ConnectionResetError:
             print(f"Cliente {addr} desconectado abruptamente")
