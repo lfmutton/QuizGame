@@ -108,7 +108,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 
 ## 🧑‍💻 Autor
 
-Desenvolvido por [Seu Nome] – Projeto acadêmico.
+Desenvolvido por Luís Mutton – Projeto acadêmico.
 
 ---
 
