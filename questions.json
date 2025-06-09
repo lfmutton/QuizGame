@@ -1,32 +1,92 @@
 [
-    {
-        "question": "Qual é o sistema operacional desenvolvido pela Microsoft?",
-        "options": [
-            "Linux",
-            "macOS",
-            "Windows",
-            "Android"
-        ],
-        "answer": 3
-    },
-    {
-        "question": "O que significa a sigla 'CPU'?",
-        "options": [
-            "Central Processing Unit",
-            "Computer Processing Unit",
-            "Central Power Unit",
-            "Computer Power Unit"
-        ],
-        "answer": 1
-    },
-    {
-        "question": "Qual destes não é um sistema operacional?",
-        "options": [
-            "Ubuntu",
-            "Fedora",
-            "Apache",
-            "Debian"
-        ],
-        "answer": 3
-    }
+  {
+    "question": "Qual é o sistema operacional desenvolvido pela Microsoft?",
+    "options": ["Linux", "macOS", "Windows", "Android"],
+    "answer": 3
+  },
+  {
+    "question": "O que significa a sigla 'CPU'?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Processing Unit",
+      "Central Power Unit",
+      "Computer Power Unit"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qual destes não é um sistema operacional?",
+    "options": ["Ubuntu", "Fedora", "Apache", "Debian"],
+    "answer": 3
+  },
+  {
+    "question": "Qual linguagem é mais comumente usada para desenvolvimento web no lado do cliente?",
+    "options": ["Python", "JavaScript", "C++", "Java"],
+    "answer": 2
+  },
+  {
+    "question": "O que é RAM em um computador?",
+    "options": [
+      "Armazenamento permanente",
+      "Unidade de processamento gráfico",
+      "Memória de acesso aleatório",
+      "Sistema operacional"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qual desses navegadores é desenvolvido pela Mozilla Foundation?",
+    "options": ["Chrome", "Edge", "Firefox", "Opera"],
+    "answer": 3
+  },
+  {
+    "question": "O que é um SSD em comparação a um HD tradicional?",
+    "options": [
+      "Mais lento e mais barato",
+      "Mais rápido e sem partes móveis",
+      "Usa fita magnética",
+      "É uma forma de processador"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qual destes dispositivos é uma unidade de entrada?",
+    "options": ["Monitor", "Impressora", "Teclado", "Caixa de som"],
+    "answer": 3
+  },
+  {
+    "question": "Qual é a função principal de um sistema operacional?",
+    "options": [
+      "Imprimir documentos",
+      "Controlar hardware e fornecer interface ao usuário",
+      "Fornecer energia ao computador",
+      "Proteger contra vírus"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qual é o navegador padrão no Windows?",
+    "options": ["Firefox", "Chrome", "Edge", "Safari"],
+    "answer": 3
+  },
+  {
+    "question": "Qual linguagem é amplamente usada em ciência de dados?",
+    "options": ["C#", "PHP", "Python", "Ruby"],
+    "answer": 3
+  },
+  {
+    "question": "Qual dos seguintes é um software de código aberto?",
+    "options": [
+      "Microsoft Office",
+      "Adobe Photoshop",
+      "LibreOffice",
+      "CorelDRAW"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qual componente é responsável pelo processamento gráfico?",
+    "options": ["RAM", "SSD", "GPU", "HDD"],
+    "answer": 3
+  }
 ]
